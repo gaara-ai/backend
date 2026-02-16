@@ -42,7 +42,7 @@ class Landmarks(BaseModel):
 
 class UserProfileRequest(BaseModel):
     """User profile in request."""
-    level: str = Field(..., regex="^(beginner|intermediate|advanced)$")
+    level: str = Field(..., pattern="^(beginner|intermediate|advanced)$")
     conditions: List[str] = Field(default_factory=list)
     age: Optional[int] = Field(None, ge=10, le=100)
 
