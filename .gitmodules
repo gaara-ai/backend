@@ -1,0 +1,3 @@
+[submodule "gaara/backend/gaara/backend/backend"]
+	path = gaara/backend/gaara/backend/backend
+	url = https://github.com/gaara-ai/backend.git

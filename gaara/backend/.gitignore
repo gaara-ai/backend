@@ -1,0 +1,55 @@
+.env
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Firebase / Service Account Keys
+# =========================
+firebase-config.json
+*.json
+
+# (Optional – if you only want to ignore specific secret JSON)
+# firebase-service-account.json
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Build files
+# =========================
+dist/
+build/

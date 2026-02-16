@@ -1,0 +1,1 @@
+"""FastAPI REST API for AI Yoga Master."""
